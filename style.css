@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  
+#map {
+    height: 100vh;
+    z-index: 1;
+}
+  
+.interface {
+    background-color: rgb(14, 132, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 100vh;
+    position: absolute;
+    right: 1px;
+    opacity: 0.75;
+    z-index: 2;
+}
+  
+#button{
+    background-color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    color: rgb(42, 224, 224);
+    width: 80px;
+    height: 40px;
+}
+
+#reset {
+    background-color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    color: rgb(42, 224, 224);
+    width: 80px;
+    height: 40px;
+}
+
+#los {
+    color: rgb(16, 16, 92);
+    text-align: center;
+    margin-top: 20px;
+}
